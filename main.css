@@ -146,7 +146,6 @@ header li {
 }
 
 .about-us button {
-  align-self: flex-start;
   background-color: #087f5b;
   border: none;
   padding: 8px 16px;
@@ -383,5 +382,30 @@ footer i {
 
   #hero {
     margin-top: 0;
+  }
+
+  .hero-text h1 {
+    font-size: 48px;
+  }
+
+  .about-us {
+    width: 85%;
+    margin: 48px auto;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .about-us-img {
+    display: block;
+  }
+
+  .about-us img {
+    width: 450px;
+    height: 100%;
+    object-fit: fixed;
   }
 }
