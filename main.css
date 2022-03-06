@@ -358,4 +358,30 @@ footer i {
 /* START OF REPONSIVE DESIGN */
 
 @media (min-width: 1024px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 85%;
+    height: 100px;
+    margin: 0 auto;
+  }
+
+  .logo h3 {
+    font-size: 24px;
+  }
+
+  header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    align-items: center;
+  }
+
+  header li a {
+    font-size: 16px;
+  }
+
+  #hero {
+    margin-top: 0;
+  }
 }
