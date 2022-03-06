@@ -354,3 +354,8 @@ footer i {
   margin-right: 8px;
 }
 /* END OF FOOTER */
+
+/* START OF REPONSIVE DESIGN */
+
+@media (min-width: 1024px) {
+}
