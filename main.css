@@ -5,3 +5,66 @@ TEXT COLOR: #212529
 SECONDARY TEXT COLOR: #868e96 */
 
 @import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #212529;
+}
+
+/* HEADER/HERO */
+
+/*HEADER*/
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo h3 {
+  color: #087f5b;
+  font-size: 36px;
+  line-height: 0.8;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+header ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+header li a {
+  text-decoration: none;
+  color: #212529;
+  transition: 0.5s;
+  font-size: 24px;
+}
+
+header li a:hover,
+header li a:active {
+  color: #087f5b;
+}
+
+header li {
+  padding-bottom: 12px;
+}
+
+.header-btn {
+  background-color: transparent;
+  padding: 8px 16px;
+  font-weight: 500;
+  border: 1px solid #212529;
+  transition: 0.2s;
+}
+
+.header-btn:active,
+.header-btn:hover,
+.header-btn a:hover {
+  background-color: #087f5b;
+  color: #fff;
+}
