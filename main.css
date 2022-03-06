@@ -439,4 +439,16 @@ footer i {
     gap: 36px;
     margin-bottom: 48px;
   }
+
+  /* COMPANY TEAM */
+
+  .portrait-boxes {
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .box img {
+    width: 220px;
+    height: 300px;
+  }
 }
