@@ -68,3 +68,45 @@ header li {
   background-color: #087f5b;
   color: #fff;
 }
+
+/* END OF HEADER */
+
+/* HERO */
+
+#hero {
+  margin-top: 36px;
+  height: 55vh;
+  background-image: linear-gradient(
+      256.48deg,
+      rgba(8, 127, 91, 0) -19.92%,
+      #087f5b 100%
+    ),
+    url(images/hero-bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 55vh;
+  color: #fff;
+}
+
+.hero-container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.hero-text h1 {
+  margin: 0;
+  line-height: 1.2;
+}
+
+.hero-text h4 {
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+/* END OF HERO */
