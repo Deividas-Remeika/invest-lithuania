@@ -169,7 +169,7 @@ header li {
 .services {
   margin-top: 48px;
   color: #fff;
-  height: 115vh;
+  height: 100vh;
 }
 
 .services-container {
@@ -394,9 +394,12 @@ footer i {
     height: 100%;
 
     display: flex;
-    justify-content: space-between;
     align-items: center;
     gap: 16px;
+  }
+
+  .about-us-text {
+    height: 100%;
   }
 
   .about-us-img {
@@ -406,7 +409,7 @@ footer i {
   .about-us img {
     width: 450px;
     height: 100%;
-    object-fit: fixed;
+    object-fit: fill;
   }
 
   /* SERVICES */
@@ -456,7 +459,7 @@ footer i {
 
   .contact-us {
     flex-direction: row;
-    height: 70vh;
+    height: 50vh;
   }
 
   /* FOOTER */
